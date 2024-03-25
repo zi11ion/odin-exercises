@@ -107,5 +107,10 @@
                 ? update("black", "white")
                 : update("white", "black")
         )
+
+		let message = (login == 'Employee') ? 'Hello' :
+  			(login == 'Director') ? 'Greetings' :
+ 		 	(login == '') ? 'No login' :
+  			'';
 	</script>
 </html>
